@@ -1,4 +1,4 @@
-## Caching the Inverse of a Matrix
+#### Caching the Inverse of a Matrix #####
 
 ## makeCacheMatrix(): This function creates a special "matrix" object 
 ## that can cache its inverse.
@@ -33,5 +33,5 @@ cacheSolve <- function(x, ...) {
     data <- x$get()
     m <- solve(data, ...)
     x$setinverse(m) 
-    m ## Return a matrix that is the inverse of 'x'
+    m ## Return the inverse of the Matrix 'x'
 }
